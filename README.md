@@ -1,4 +1,4 @@
-**EventEcho - Event Feedback Analysis Dashboard**
+# EventEcho - Event Feedback Analysis Dashboard
 
 The Event Feedback Analysis Dashboard is a web-based platform developed to streamline the process of collecting, analyzing, and maintaining event feedback for the clubs of the **Department of Computer Science and Engineering, Thiagarajar College of Engineering, Madurai.** It provides an organized, data-driven approach to understanding participant responses and measuring the overall success of events conducted by student clubs.
 
@@ -10,10 +10,10 @@ This initiative not only enhances transparency and accountability within the clu
 
 **Tech Stack**
 
-Frontend: React (for a responsive and interactive user experience)
+- Frontend: React (for a responsive and interactive user experience)
 
-Backend: FastAPI (for efficient data handling and sentiment analysis)
+- Backend: FastAPI (for efficient data handling and sentiment analysis)
 
-Database: MongoDB (for scalable and structured event data storage)
+- Database: MongoDB (for scalable and structured event data storage)
 
 
