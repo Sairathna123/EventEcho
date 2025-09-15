@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+EventEcho - Event Feedback Analysis Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Event Feedback Analysis Dashboard is a web-based platform developed to streamline the process of collecting, analyzing, and maintaining event feedback for the clubs of the Department of Computer Science and Engineering, Thiagarajar College of Engineering, Madurai. It provides an organized, data-driven approach to understanding participant responses and measuring the overall success of events conducted by student clubs.
 
-## Available Scripts
+The system is designed to transform raw event feedback into meaningful insights through structured analysis and visualization. It highlights key aspects such as sentiment distribution, trending topics, and keyword analysis, while also providing an overall textual summary of participant opinions. Additionally, the platform evaluates engagement levels and compiles selected sample feedback for quick review. These insights help clubs identify areas of improvement and recognize strengths, ensuring that future events are planned with a participant-centric perspective.
 
-In the project directory, you can run:
+The dashboard places special emphasis on accessibility and ease of interpretation. Information is presented in the form of charts, word clouds, and attractively designed cards to ensure that both qualitative and quantitative aspects of feedback are clear and actionable. An automated PDF report generation feature has also been integrated, enabling organizers to maintain well-documented records of event outcomes for future reference and reporting purposes.
 
-### `npm start`
+This initiative not only enhances transparency and accountability within the clubs but also ensures that feedback management becomes a systematic process rather than an ad-hoc activity. By leveraging data analytics and modern web technologies, the Event Feedback Analysis Dashboard supports a culture of continuous improvement, fostering better engagement, inclusivity, and impact in the activities organized by the CSE clubs of TCE.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Frontend: React (for a responsive and interactive user experience)
 
-### `npm test`
+Backend: FastAPI (for efficient data handling and sentiment analysis)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Database: MongoDB (for scalable and structured event data storage)
