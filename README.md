@@ -1,6 +1,6 @@
 # Event Echo - Event Feedback & Sentiment Analysis Platform
 
-A comprehensive web application for analyzing event feedback with sentiment analysis support for both English and Tanglish (Tamil-English mix) text. Features real-time analysis, PDF report generation, and interactive dashboards for organizing clubs.
+A comprehensive web application for analyzing event feedback with sentiment analysis support for both English and Tanglish (Tamil-English mix) text. Features real-time analysis, PDF report generation, and interactive dashboards for organizing clubs of the Computer Science and Engineering Departement in Thiagarajar College of Engineering, Madurai
 
 ---
 
@@ -128,8 +128,6 @@ python -m uvicorn sentiment_api:app --host 127.0.0.1 --port 8000
 ```
 
 **Backend will be available at:** `http://127.0.0.1:8000`
-- API Documentation: `http://127.0.0.1:8000/docs`
-- ReDoc: `http://127.0.0.1:8000/redoc`
 
 ### Starting the Frontend (React)
 
@@ -181,74 +179,6 @@ npm start
    - Event metadata and sentiment summaries
    - Trending topics and engagement metrics
    - Full audit trail with timestamps
-
----
-
-## API Endpoints
-
-### Core Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `GET` | `/` | Health check - API status |
-| `POST` | `/analyze/` | Analyze event feedback from uploaded file |
-| `GET` | `/api/reports/{club}` | Retrieve all reports for a club |
-| `DELETE` | `/api/reports/{pdf_path}` | Delete a specific report |
-| `GET` | `/reports/{club}/{filename}` | Download PDF report |
-
-### Request Example
-
-**POST `/analyze/`**
-
-```bash
-curl -X POST "http://127.0.0.1:8000/analyze/" \
-  -F "file=@feedback.xlsx" \
-  -F "eventName=Tech Talk 2025" \
-  -F "club=AlgoGeeks" \
-  -F "description=Python Workshop" \
-  -F "date=2025-01-11" \
-  -F "strength=150"
-```
-
-**Response:**
-
-```json
-{
-  "success": true,
-  "pdfPath": "AlgoGeeks/Tech_Talk_2025_20250111_143022.pdf",
-  "event": "Tech Talk 2025",
-  "club": "AlgoGeeks",
-  "analysis": {
-    "sentimentCounts": {
-      "Positive": 85,
-      "Neutral": 45,
-      "Negative": 20
-    },
-    "pieChart": "base64_encoded_image",
-    "wordCloud": "base64_encoded_image",
-    "trendingTopics": ["excellent", "speaker", "engaging", "interactive"],
-    "engagementScore": 56.67,
-    "positiveKeywords": "base64_encoded_image",
-    "negativeKeywords": "base64_encoded_image"
-  }
-}
-```
-
----
-
-## CORS Configuration
-
-The backend is configured to accept requests from:
-- `http://localhost:3000` (React development server)
-
-To add additional origins, modify in `sentiment_api.py`:
-
-```python
-origins = [
-    "http://localhost:3000",
-    "http://yourdomain.com",  # Add here
-]
-```
 
 ---
 
@@ -304,52 +234,6 @@ The backend automatically creates the database and collections on first run.
 
 ---
 
-## Troubleshooting
-
-### Backend Won't Start
-
-**Error: "Module not found"**
-```bash
-# Ensure virtual environment is activated
-.\venv\Scripts\activate
-
-# Reinstall dependencies
-pip install -r requirements.txt
-```
-
-**Error: "Connection refused" on port 8000**
-```bash
-# Check if port is already in use
-netstat -ano | findstr :8000  # Windows
-
-# Use different port
-python -m uvicorn sentiment_api:app --port 8001
-```
-
-### Frontend Issues
-
-**Error: "Cannot find module"**
-```bash
-# Clear cache and reinstall
-rm -rf node_modules package-lock.json
-npm install
-```
-
-**Blank React page**
-- Check browser console for errors
-- Ensure backend is running and accessible
-- Verify CORS settings
-
-### MongoDB Connection Failed
-
-```bash
-# Check MongoDB service status
-# Windows
-net start MongoDB  # Start service
-
-# Verify connection
-python -c "from pymongo import MongoClient; MongoClient('mongodb://localhost:27017/').admin.command('ping')"
-```
 
 ---
 
@@ -366,20 +250,7 @@ python -c "from pymongo import MongoClient; MongoClient('mongodb://localhost:270
 
 ---
 
-## Development
-
-### Adding New Features
-
-1. **Backend Changes**: Modify `sentiment_api.py`
-2. **Frontend Changes**: Edit components in `src/`
-3. **Test Locally**: Verify on localhost before deployment
-
-### Code Structure
-
-- **API Routes**: Lines 120-388 in `sentiment_api.py`
-- **Sentiment Logic**: `classify_sentiment()` function
-- **File Handling**: `read_tabular_upload()` function
-- **PDF Generation**: Custom FPDF wrapper functions
+## Screenshots
 
 ---
 
