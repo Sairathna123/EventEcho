@@ -250,10 +250,10 @@ The backend automatically creates the database and collections on first run.
 ## Screen Recordings
 
 ### Club Dashboard Overview
-[Watch Club Dashboard Demo](https://drive.google.com/file/d/1J0lGA2bXt3STVunQezNqkSVD6VPDs0AO/view?usp=sharing)
+[Watch Club Dashboard Demo](https://drive.google.com/file/d/1AsXORC3uHopMsFRoEmKNCgEcxv-HxHl7/view?usp=sharing)
 
 ### Admin Dashboard Overview
-[Watch Admin Dashboard Demo](https://drive.google.com/file/d/13h12MVGkeHOuoble2ghum2LcRzPcepe_/view?usp=sharing)
+[Watch Admin Dashboard Demo](https://drive.google.com/file/d/1RLLVWdi0qzy0z_3CLhgFrkgzX2SdbKJN/view?usp=sharing)
 
 
 
