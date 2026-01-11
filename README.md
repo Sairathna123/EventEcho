@@ -250,20 +250,13 @@ The backend automatically creates the database and collections on first run.
 ## Screen Recordings
 
 ### Club Dashboard Overview
-[Watch Club Dashboard Demo](../ScreenRecordings/Club-AlgoGeeks.mp4)
+[Watch Club Dashboard Demo](ScreenRecordings/Club-AlgoGeeks.mp4)
 
-<video width="80%" controls>
-  <source src="../ScreenRecordings/Club-AlgoGeeks.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ### Admin Dashboard Overview
-[Watch Admin Dashboard Demo](../ScreenRecordings/Admin.mp4)
+[Watch Admin Dashboard Demo](ScreenRecordings/Admin.mp4)
 
-<video width="80%" controls>
-  <source src="../ScreenRecordings/Admin.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
 
 ---
 
