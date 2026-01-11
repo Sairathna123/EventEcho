@@ -71,7 +71,7 @@ event-analyzer/
 #### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Sairathna123/EventEcho.git
 cd event-analyzer
 ```
 
@@ -231,9 +231,6 @@ npm start
    ```
 
 The backend automatically creates the database and collections on first run.
-
----
-
 
 ---
 
