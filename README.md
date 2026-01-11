@@ -250,12 +250,10 @@ The backend automatically creates the database and collections on first run.
 ## Screen Recordings
 
 ### Club Dashboard Overview
-[Watch Club Dashboard Demo](ScreenRecordings/Club-AlgoGeeks.mp4)
-(https://drive.google.com/file/d/1J0lGA2bXt3STVunQezNqkSVD6VPDs0AO/view?usp=sharing)
+[Watch Club Dashboard Demo](https://drive.google.com/file/d/1J0lGA2bXt3STVunQezNqkSVD6VPDs0AO/view?usp=sharing)
 
 ### Admin Dashboard Overview
-[Watch Admin Dashboard Demo](ScreenRecordings/Admin.mp4)
-(https://drive.google.com/file/d/13h12MVGkeHOuoble2ghum2LcRzPcepe_/view?usp=sharing)
+[Watch Admin Dashboard Demo](https://drive.google.com/file/d/13h12MVGkeHOuoble2ghum2LcRzPcepe_/view?usp=sharing)
 
 
 
