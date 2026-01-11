@@ -6,7 +6,7 @@ A comprehensive web application for analyzing event feedback with sentiment anal
 
 ## Project Overview
 
-**Event Analyzer** is designed to help clubs and event organizers collect, analyze, and visualize feedback from their events. The platform combines:
+**Event Echo** is designed to help clubs and event organizers collect, analyze, and visualize feedback from their events. The platform combines:
 
 - **Frontend**: React-based interactive dashboard with real-time feedback analysis
 - **Backend**: FastAPI-powered sentiment analysis engine with MongoDB data persistence
