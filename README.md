@@ -13,47 +13,6 @@ A comprehensive web application for analyzing event feedback with sentiment anal
 - **Analytics**: Sentiment classification, trend detection, engagement scoring, and word clouds
 - **Reports**: Automated PDF report generation with charts and visualizations
 
----
-
-##  Project Structure
-
-```
-event-analyzer/
-├── event-app/                    # React Frontend
-│   ├── public/                   # Static assets
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── App.js           # Main application entry
-│   │   │   ├── Login.js         # Authentication
-│   │   │   ├── ClubSelection.js # Club selection interface
-│   │   │   ├── EventForm.jsx    # Event feedback upload form
-│   │   │   ├── EventAnalysis.jsx# Real-time analysis display
-│   │   │   ├── ClubDashboard.jsx# Club performance dashboard
-│   │   │   ├── ReportsPage.jsx  # Reports archive and management
-│   │   │   └── About.jsx        # About page
-│   │   ├── utils/
-│   │   │   └── auth.jsx         # Authentication utilities
-│   │   ├── index.js             # React entry point
-│   │   └── styles/              # CSS files
-│   └── package.json             # Node dependencies
-│
-├── fastapi/                      # Python Backend
-│   ├── sentiment_api.py         # Main FastAPI application
-│   ├── tanglish_model.pkl       # Pre-trained sentiment model
-│   ├── tanglish_vectorizer.pkl  # Feature vectorizer
-│   ├── venv/                    # Python virtual environment
-│   ├── reports/                 # Generated PDF reports by club
-│   │   ├── AlgoGeeks/
-│   │   ├── ARVR/
-│   │   ├── CSEA/
-│   │   ├── Glugot/
-│   │   └── IEEE/
-│   ├── uploads/                 # Temporary file uploads
-│   ├── data/                    # Training data
-│   └── club_data/               # Club-specific information
-│
-└── Test_files/                  # Test data and samples
-```
 
 ---
 
@@ -126,8 +85,6 @@ source venv/bin/activate  # macOS/Linux
 # Start the FastAPI server
 python -m uvicorn sentiment_api:app --host 127.0.0.1 --port 8000
 ```
-
-**Backend will be available at:** `http://127.0.0.1:8000`
 
 ### Starting the Frontend (React)
 
@@ -205,32 +162,6 @@ npm start
 - **wordcloud** - Word cloud generation
 - **matplotlib** - Plotting
 
----
-
-## Database Setup
-
-### MongoDB Local Instance
-
-1. **Install MongoDB** from [mongodb.com](https://www.mongodb.com/try/download/community)
-
-2. **Start MongoDB service:**
-   ```bash
-   # Windows
-   net start MongoDB
-   
-   # macOS (with Homebrew)
-   brew services start mongodb-community
-   
-   # Linux
-   sudo systemctl start mongod
-   ```
-
-3. **Verify connection:**
-   ```bash
-   mongo mongodb://localhost:27017
-   ```
-
-The backend automatically creates the database and collections on first run.
 
 ---
 
